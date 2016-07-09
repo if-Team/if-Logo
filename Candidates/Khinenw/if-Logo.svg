@@ -9,28 +9,34 @@
 			fill: #fff;
 		}
 		
+		.cog, .cog-saw {
+			clip-path: url(#square-clip);
+		}
+		
 		.background {
-			fill: #00c0a0;
+			fill: #222;
+		}
+		
+		.square.background {
+			fill: #009688;
 		}
 		
 		.grid {
 			/* display: none; */
 			fill: #fff;
 			transform: rotate(45deg);
-			transform-origin: 50% 50%;
+			transform-origin: 256px 256px;
 			stroke-width: 10px;
-		}
-		
-		.center.grid {
-			display: none;
+			clip-path: url(#square-clip-original);
 		}
 		
 		.text {
 			font-size: 36px;
 			font-family: 'Ubuntu';
-			fill: #00c0a0;
+			fill: #009688;
 			text-anchor: middle;
 		}
+		
 	</style>
 	
 	<defs>
@@ -56,10 +62,19 @@
 			<path d="M 407,264 L 367,287 L 375,301 L 415,278 Z" fill="#fff"/>
 			<circle cx="437" cy="256" r="32" fill="#000"/>
 		</mask>
+		
+		<clipPath id="square-clip">
+			<rect x="128" y="128" width="256" height="256" transform="rotate(45, 256, 256)" fill="#000"/>
+		</clipPath>
+		
+		<clipPath id="square-clip-original">
+			<rect x="128" y="128" width="256" height="256" fill="#000"/>
+		</clipPath>
 	</defs>
 	
 	<!-- background -->
-	<rect x="128" y="128" width="256" height="256" transform="rotate(45, 256, 256)" class="background"/>
+	<rect x="0" y="0" width="512" height="512" class="background"/>
+	<rect x="128" y="128" width="256" height="256" transform="rotate(45, 256, 256)" class="square background"/>
 	
 	<!-- bottom cog -->
 	<circle cx="256" cy="437" r="96" class="cog" mask="url(#circle-path)"/>
@@ -101,15 +116,13 @@
 	<path d="M 331,258 L 307,259 L 307,263 L 331,262 Z" class="cog-saw"/>
 	
 	<!-- grid -->
-	<rect x="0" y="192" width="512" height="10" class="grid"/>
-	<rect x="0" y="256" width="512" height="10" class="grid center"/>
-	<rect x="0" y="320" width="512" height="10" class="grid"/>
-	<rect x="194" y="0" width="10" height="512" class="grid"/>
-	<rect x="256" y="0" width="10" height="512" class="grid center"/>
-	<rect x="320" y="0" width="10" height="512" class="grid"/>
+	<rect x="0" y="213" width="512" height="10" class="grid"/>
+	<rect x="0" y="299" width="512" height="10" class="grid"/>
+	<rect x="213" y="0" width="10" height="512" class="grid"/>
+	<rect x="299" y="0" width="10" height="512" class="grid"/>
 	
 	<!-- text -->
-	<text x="256" y="480" class="text">
+	<text x="256" y="448" class="text" transform="rotate(45, 256, 256)">
 		if-Team
 	</text>
 </svg>

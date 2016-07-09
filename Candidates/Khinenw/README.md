@@ -1,3 +1,3 @@
 # if-Logo > Candidates > Khinenw
 
-![if-Logo](if-Logo.svg)
+![if-Logo](https://rawgit.com/if-Team/if-Logo/master/Candidates/Khinenw/if-Logo.svg)
