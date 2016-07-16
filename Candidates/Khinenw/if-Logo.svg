@@ -23,7 +23,7 @@
 		
 		.grid {
 			/* display: none; */
-			fill: #fff;
+			fill: #222;
 			transform: rotate(45deg);
 			transform-origin: 256px 256px;
 			stroke-width: 10px;
@@ -75,6 +75,12 @@
 	<!-- background -->
 	<rect x="0" y="0" width="512" height="512" class="background"/>
 	<rect x="128" y="128" width="256" height="256" transform="rotate(45, 256, 256)" class="square background"/>
+
+	<!-- grid -->
+	<rect x="0" y="213" width="512" height="10" class="grid"/>
+	<rect x="0" y="299" width="512" height="10" class="grid"/>
+	<rect x="213" y="0" width="10" height="512" class="grid"/>
+	<rect x="299" y="0" width="10" height="512" class="grid"/>
 	
 	<!-- bottom cog -->
 	<circle cx="256" cy="437" r="96" class="cog" mask="url(#circle-path)"/>
@@ -114,12 +120,6 @@
 	<path d="M 335,287 L 312,294 L 314,298 L 337,291 Z" class="cog-saw"/>
 	<path d="M 333,272 L 309,277 L 309,281 L 333,276 Z" class="cog-saw"/>
 	<path d="M 331,258 L 307,259 L 307,263 L 331,262 Z" class="cog-saw"/>
-	
-	<!-- grid -->
-	<rect x="0" y="213" width="512" height="10" class="grid"/>
-	<rect x="0" y="299" width="512" height="10" class="grid"/>
-	<rect x="213" y="0" width="10" height="512" class="grid"/>
-	<rect x="299" y="0" width="10" height="512" class="grid"/>
 	
 	<!-- text -->
 	<text x="256" y="448" class="text" transform="rotate(45, 256, 256)">
