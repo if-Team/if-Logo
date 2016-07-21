@@ -1,47 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 235.4 152.21">
-<defs>
-    <style>.cls-1{fill:#2c3643;}.cls-2{font-size:14px;font-family:Menlo-Regular, Menlo;}.cls-3{fill:#ff708e;}.cls-4{fill:#298ad6;}.cls-5{font-size:5px;}.cls-6{fill:#dbe6e6;}</style>
-</defs>
-<title>haveGreatIdea</title>
-<g id="&#xB808;&#xC774;&#xC5B4;_2" data-name="&#xB808;&#xC774;&#xC5B4; 2">
-    <g id="&#xB808;&#xC774;&#xC5B4;_1-2" data-name="&#xB808;&#xC774;&#xC5B4; 1">
-        <rect class="cls-1" width="235.4" height="152.21"/>
-        <text class="cls-2">
-            <tspan class="cls-3" x="9.66" y="23.27">function</tspan>
-            <tspan x="77.09" y="23.27">
-            </tspan>
-            <tspan class="cls-4" x="85.52" y="23.27">haveGreatIdea</tspan>
-            <tspan class="cls-5" x="195.09" y="23.27">
-            </tspan>
-            <tspan class="cls-6" x="198.1" y="23.27">(){</tspan>
-            <tspan x="9.66" y="46.07" xml:space="preserve">
-            </tspan>
-            <tspan class="cls-4" x="26.52" y="46.07">startProject</tspan>
-            <tspan class="cls-5" x="127.66" y="46.07">
-            </tspan>
-            <tspan class="cls-6" x="130.67" y="46.07">();</tspan>
-            <tspan x="9.66" y="68.87" xml:space="preserve">
-            </tspan>
-            <tspan class="cls-4" x="26.52" y="68.87">loseMotivation</tspan>
-            <tspan class="cls-5" x="144.52" y="68.87">
-            </tspan>
-            <tspan class="cls-6" x="147.53" y="68.87">();</tspan>
-            <tspan x="9.66" y="91.67" xml:space="preserve">
-            </tspan>
-            <tspan class="cls-4" x="26.52" y="91.67">abandonProject</tspan>
-            <tspan class="cls-5" x="144.52" y="91.67">
-            </tspan>
-            <tspan class="cls-6" x="147.53" y="91.67">();</tspan>
-            <tspan x="9.66" y="114.47" xml:space="preserve">
-            </tspan>
-            <tspan class="cls-4" x="26.52" y="114.47">haveGreatIdea</tspan>
-            <tspan class="cls-5" x="136.09" y="114.47">
-            </tspan>
-            <tspan class="cls-6" x="139.1" y="114.47">();</tspan>
-            <tspan class="cls-6">
-                <tspan x="9.66" y="137.27">}</tspan>
-            </tspan>
-        </text>
+    <defs>
+        <style>.cls-1{fill:#2c3643;}.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7{isolation:isolate;}.cls-3,.cls-4,.cls-5,.cls-7{font-size:14px;}.cls-3{fill:#ff708e;}.cls-3,.cls-4,.cls-5,.cls-6,.cls-7{font-family:Menlo-Regular, Menlo;}.cls-5{fill:#298ad6;}.cls-6{font-size:5px;}.cls-7{fill:#dbe6e6;}</style>
+    </defs>
+    <title>haveGreatIdea</title>
+    <g id="레이어_2" data-name="레이어 2">
+        <g id="레이어_1-2" data-name="레이어 1">
+            <path class="cls-1" d="M226.9,34.63H183.63a8.5,8.5,0,0,0-8.5,8.5v70.92a8.5,8.5,0,0,1-8.5,8.5H35a8.5,8.5,0,0,0-8.5,8.5v12.65a8.5,8.5,0,0,1-8.5,8.5H8.5a8.5,8.5,0,0,1-8.5-8.5V8.5A8.5,8.5,0,0,1,8.5,0H226.9a8.5,8.5,0,0,1,8.5,8.5V26.13A8.5,8.5,0,0,1,226.9,34.63Z" />
+            <g class="cls-2">
+                <text class="cls-3" transform="translate(9.66 23.27)">function</text>
+                <text class="cls-4" transform="translate(77.09 23.27)"></text>
+                <text class="cls-5" transform="translate(85.52 23.27)">haveGreatIdea</text>
+                <text class="cls-6" transform="translate(195.09 23.27)"></text>
+                <text class="cls-7" transform="translate(198.1 23.27)">(){</text>
+                <text class="cls-4" transform="translate(9.66 46.07)">
+                    <tspan xml:space="preserve">  </tspan>
+                </text>
+                <text class="cls-5" transform="translate(26.52 46.07)">startProject</text>
+                <text class="cls-6" transform="translate(127.66 46.07)"></text>
+                <text class="cls-7" transform="translate(130.67 46.07)">();</text>
+                <text class="cls-4" transform="translate(9.66 68.87)">
+                    <tspan xml:space="preserve">  </tspan>
+                </text>
+                <text class="cls-5" transform="translate(26.52 68.87)">loseMotivation</text>
+                <text class="cls-6" transform="translate(144.52 68.87)"></text>
+                <text class="cls-7" transform="translate(147.53 68.87)">();</text>
+                <text class="cls-4" transform="translate(9.66 91.67)">
+                    <tspan xml:space="preserve">  </tspan>
+                </text>
+                <text class="cls-5" transform="translate(26.52 91.67)">abandonProject</text>
+                <text class="cls-6" transform="translate(144.52 91.67)"></text>
+                <text class="cls-7" transform="translate(147.53 91.67)">();</text>
+                <text class="cls-4" transform="translate(9.66 114.47)">
+                    <tspan xml:space="preserve">  </tspan>
+                </text>
+                <text class="cls-5" transform="translate(26.52 114.47)">haveGreatIdea</text>
+                <text class="cls-6" transform="translate(136.09 114.47)"></text>
+                <text class="cls-7" transform="translate(139.1 114.47)">();</text>
+                <text class="cls-7" transform="translate(9.66 137.27)">}</text>
+            </g>
+        </g>
     </g>
-</g>
 </svg>
