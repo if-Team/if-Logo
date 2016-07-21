@@ -6,7 +6,3 @@
 * ifteam-sticker
   * .ai
   * .pdf
-  * .svg
-
-## Sticker Pack
-![StickerPack](ifteam-sticker.svg)
