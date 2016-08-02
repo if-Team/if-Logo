@@ -4,5 +4,5 @@
 ## File list
 * haveGreatIdea.svg
 * ifteam-sticker
-  * .ai
-  * .pdf
+  * '.ai'
+  * '.pdf'
